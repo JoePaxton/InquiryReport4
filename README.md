@@ -36,7 +36,7 @@ artists. There are some other duplicate artist I have ran into in the past, as w
 
 The comparisons for their [familiarity]:
 ```
- Similar Artists:
+Similar Artists:
 >>> nas = artist.Artist('Nas')
 >>> nas.get_familiarity()
 0.826423
@@ -44,7 +44,7 @@ The comparisons for their [familiarity]:
 >>> talib.get_familiarity()
 0.72596
 
- Input Artists:
+Input Artists:
 
 >>> inputKanye = artist.Artist('Kanye West')
 >>> inputKanye.get_familiarity()
@@ -55,7 +55,8 @@ The comparisons for their [familiarity]:
 >>> inputCommon.get_familiarity()
 0.798834
 
- 'Duplicate' Artist Object:
+'Duplicate' Artist Object:
+ 
 >>> inputCommonSense = artist.Artist('Common Sense')
 >>> inputCommonSense.get_familiarity()
 0.453981
