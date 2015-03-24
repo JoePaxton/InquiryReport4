@@ -52,8 +52,6 @@ Input Artists:
 >>> inputCommon = artist.Artist('Common')
 >>> inputCommon.get_familiarity()
 0.798834
->>> inputCommon.get_familiarity()
-0.798834
 
 'Duplicate' Artist Object:
  
