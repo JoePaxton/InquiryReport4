@@ -88,7 +88,7 @@ with the overall *hotttnesss* of an artist. As stated earlier, I will try
 to implement my own mediocre function for overall *hotttnesss*. We want
 attributes that are not just for current status.
 
-*This answers questions 1 and 2***
+*This answers questions 1 and 2*
 
 ### 2. Mini-abstract and relevance of [plotTimeline]:
 I am going to use the dates from the ```get_years_active()``` function and
@@ -105,7 +105,7 @@ provides. We can visualize the ```top_hottt()``` artists' attributes compared
 to your favorite artists to see why your favorites are not or in the ```top_hottt()``` 
 artists for Echo Nest.
 
-*This answers question 3***
+*This answers question 3*
 
 [familiarity]: http://developer.echonest.com/forums/thread/839
 [Echo Nest Artist API]: https://github.com/echonest/pyechonest/blob/master/pyechonest/artist.py 
