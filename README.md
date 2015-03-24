@@ -1,7 +1,8 @@
 # Problem
 We want to use the [Echo Nest Artist API] in order to visualize different
 attributes of an artist compared to similiar artists. Also, we would like
-to see if there is a way of plotting a timeline for the *hotttesss* artist.
+to see if there is a way of plotting a timeline for the *hotttesss* artist
+of all time for each decade.
 
 # Questions
 1. How do the similar artists related to the input artist differ
@@ -60,10 +61,10 @@ NameError: name 'kanye' is not defined
 ```
 We can conclude, that all of the artist have around the same [familiarity]
 rate. Although, we see that *Common Sense* (the redundant duplicate of 
-*Common*) has a much lower [familiarity] rate against "his duplicate".
-If someone knew *Common* only by *Common Sense*, they would have data from
-Echo Nest that is not completely accurate. In this case, *Common* is the 
-"correct" artist representation.
+*Common*) has a much lower [familiarity] rate against "his duplicate" and
+the other similar artists. If someone knew *Common* only by *Common Sense*, 
+they would have inaccurate data from Echo Nest. In this case, *Common* is the 
+"correct" Artist object.
 
 The ```top_hottt()``` attribute returns a list of *hottt* Artist objects.
 Let us see who are the ```top_hott()``` artists currently. This attribute
@@ -84,9 +85,9 @@ The output of the code above:
 This list is pretty accurate as far as I know. There are some artists I do
 not know on here so I trust Echo Nest's algorithm for their ```top_hottt()```
 function. Unfortunately, there is no function or attribute that provides us
-with the overall *hotttnesss* of an artist. As stated earlier, I will try
-to implement my own mediocre function for overall *hotttnesss*. We want
-attributes that are not just for current status.
+with the overall *hotttnesss* of an artist, instead is the *current* buzz. 
+As stated earlier, I will try to implement my own mediocre function for overall
+*hotttnesss*. We want attributes that are not just for current status.
 
 *This answers questions 1 and 2*
 
@@ -94,13 +95,13 @@ attributes that are not just for current status.
 I am going to use the dates from the ```get_years_active()``` function and
 figure out a way to create the list into an int so I can plot similiar artists
 next to each other comparing their attributes in a histogram. The different 
- ```plot()``` functions require an int for their x-axis; hence, the difficult
+ ```plot()``` functions require an int for their x-axis; hence, the difficulty
 in plotting the *actual* years they were active, instead of the *number* of 
 years they were active. We can color the different bars on the histogram to 
 represent each artist in a key. We can ```import matplotlib.dates as mdates``` 
 in order to get the correct format for the years and days. Also, we can plot 
 different attributes, depending on the user's input call for either *hotttnesss*, 
-[familiarity], or *strength* for the ```top_hottt()``` artists that [Echo Nest Artist API]
+[familiarity], or *strength* for the ```top_hottt()``` artists function that [Echo Nest Artist API]
 provides. We can visualize the ```top_hottt()``` artists' attributes compared 
 to your favorite artists to see why your favorites are not or in the ```top_hottt()``` 
 artists for Echo Nest.
