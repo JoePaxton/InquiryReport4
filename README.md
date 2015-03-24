@@ -69,7 +69,7 @@ they would have inaccurate data from Echo Nest. In this case, *Common* is the
 "correct" Artist object.
 
 The ```top_hottt()``` attribute returns a list of *hottt* Artist objects.
-Let us see who are the ```top_hott()``` artists currently. This attribute
+Let us see who are the ```top_hottt()``` artists currently. This attribute
 only works for their current status. I wanted an attribute that calculated
 their *overall_hotttnesss*, if there was such an attribute. I will have to
 implement this attritube in the future. The top artists currently are:
