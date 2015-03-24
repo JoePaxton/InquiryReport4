@@ -54,8 +54,10 @@ The comparisons for their [familiarity]:
 0.798834
 >>> inputCommon.get_familiarity()
 0.798834
->>> inputCommon = artist.Artist('Common Sense')
->>> inputCommon.get_familiarity()
+
+ 'Duplicate' Artist Object:
+>>> inputCommonSense = artist.Artist('Common Sense')
+>>> inputCommonSense.get_familiarity()
 0.453981
 ```
 We can conclude, that all of the artist have around the same [familiarity]
