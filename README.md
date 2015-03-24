@@ -21,18 +21,18 @@ to them.
 ```python
 from pyechonest import artist
 
-artists = [artist.Artist('Kanye West'), artist.Artist('Lupe Fiasco'), artist.Artist('Common Sense')]
+artists = [artist.Artist('Kanye West'), artist.Artist('Lupe Fiasco'), artist.Artist('Common')]
 simArt = artist.similar(ids=[art.id for art in artists], results = 8) 
 ```
 When you ```print simArt``` the following output will appear on the console:
 
-```[<artist - Common>, <artist - Nas>, <artist - Talib Kweli>, <artist - The Roots>, <artist - Rhymefest>, <artist - Mos Def>, <artist - J. Cole>, <artist - Wale>]```
+```[<artist - Common Sense>, <artist - Nas>, <artist - Talib Kweli>, <artist - The Roots>, <artist - Rhymefest>, <artist - Mos Def>, <artist - J. Cole>, <artist - Wale>]```
 
 In my opinion, Echo Nest did a very good job by comparing artists. This is an almost
 an exact replica of the list I was expecting; however, they have the artist *Common*
 and *Common Sense*. *Common Sense* changed his name to *Common* in the early 2000s.
-I think Echo Nest should delete duplicate artist that appear in their database for
-artists. There are some other duplicate artist I have ran into in the past, as well.
+I think Echo Nest should delete duplicate artist that appear in their database.
+There are some other duplicate artist I have ran into in the past, as well.
 
 The comparisons for their [familiarity]:
 ```
