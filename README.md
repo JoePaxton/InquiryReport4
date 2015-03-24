@@ -36,17 +36,16 @@ artists. There are some other duplicate artist I have ran into in the past, as w
 
 The comparisons for their [familiarity]:
 ```
+ Similar Artists:
 >>> nas = artist.Artist('Nas')
 >>> nas.get_familiarity()
 0.826423
 >>> talib = artist.Artist('Talib Kweli')
 >>> talib.get_familiarity()
 0.72596
->>> inputKanye = artist.Artist('Kanye West')
->>> kanye.get_familiarity()
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-NameError: name 'kanye' is not defined
+
+ Input Artists:
+
 >>> inputKanye = artist.Artist('Kanye West')
 >>> inputKanye.get_familiarity()
 0.871675
