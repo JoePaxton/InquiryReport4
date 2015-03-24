@@ -24,6 +24,7 @@ artists = [artist.Artist('Kanye West'), artist.Artist('Lupe Fiasco'), artist.Art
 simArt = artist.similar(ids=[art.id for art in artists], results = 8) 
 ```
 When you ```print simArt``` the following output will appear on the console:
+
 ```[<artist - Common>, <artist - Nas>, <artist - Talib Kweli>, <artist - The Roots>, <artist - Rhymefest>,
 <artist - Mos Def>, <artist - J. Cole>, <artist - Wale>]```
 
