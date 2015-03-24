@@ -37,6 +37,7 @@ There are some other duplicate artist I have ran into in the past, as well.
 The comparisons for their [familiarity]:
 ```
 Similar Artists:
+
 >>> nas = artist.Artist('Nas')
 >>> nas.get_familiarity()
 0.826423
